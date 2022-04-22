@@ -34,7 +34,7 @@ class GameTest {
 
     @Test
     void shouldWinSecondPlayer() {
-        int actual = game.round(first.getName(), "SECOND");
+        int actual = game.round(first.getName(), second.getName());
 
         assertEquals(2, actual);
     }
